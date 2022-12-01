@@ -34,9 +34,6 @@ body{
     transform: translateY(-50%);
     /* padding: 20px;
     border-radius: 8px; */
-
-
-
 }
 
 .paymentform h1 {
@@ -285,4 +282,11 @@ body{
 }
 .paymentform .addnewcard .submit input:active{
     transform: translateY(0.12rem);
+}
+
+
+@media screen and (max-width:470px){
+    .paymentform {
+        width: 440px;
+    }
 }
